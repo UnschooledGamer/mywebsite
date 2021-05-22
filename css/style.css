@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    font-family: var(--font1);
+    height: 74xp;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    font-size: 20xp;
+    display: flex;
+
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77xp;
+  font-size: 18xp;
+}
+    
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14xp;
+    font-family: var(--font2);
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: #ff000000;
+    
+}
+
+.nav-right{
+    
+}
+
+.content{
+  height: 95xp;
+}
+
+.footer{
+  height: 50xp;
+}
