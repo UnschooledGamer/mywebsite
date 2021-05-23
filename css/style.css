@@ -36,9 +36,20 @@
 .nav-right{
     
 }
+content {
+ display: flex;
+}
 
-.content{
-  height: 95xp;
+.content-left {
+ font-family: var(--font1);   
+}
+
+.content-right {
+    
+}
+.content {
+ height: 95xp;
+ background-color: #ff3f51b5;
 }
 
 .footer{
